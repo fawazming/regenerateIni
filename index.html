@@ -2,494 +2,315 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="">
-  <meta name="keywords" content="">
-  <meta name="author" content="elemis">
-  <title>Regenarative Initiative</title>
-  <link rel="shortcut icon" href="./assets/img/favicon.png">
-  <link rel="stylesheet" href="./assets/css/plugins.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/colors/navy.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="elemis">
+    <title>Regenarative Initiative</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/colors/navy.css">
 </head>
 
 <body>
-  <div class="content-wrapper">
-    <header class="wrapper bg-light">
-      <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-light">
-        <div class="container flex-lg-row flex-nowrap align-items-center">
-          <div class="navbar-brand w-100">
-            <a href="./index.html">
-              <img src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
-            </a>
-          </div>
-          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-            <div class="offcanvas-header d-lg-none">
-              <h3 class="text-white fs-30 mb-0">Reg Initiative</h3>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
-                aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="#about">About Us</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#donate">Donations</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#stories">Success Stories</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="blog">News & Events</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact Us</a>
-                </li>
-                <!-- <li class="nav-item dropdown dropdown-mega">
-                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Documentation</a>
-                  <ul class="dropdown-menu mega-menu">
-                    <li class="mega-menu-content">
-                      <div class="row gx-0 gx-lg-3">
-                        <div class="col-lg-4">
-                          <h6 class="dropdown-header">Usage</h6>
-                          <ul class="list-unstyled cc-2 pb-lg-1">
-                            <li><a class="dropdown-item" href="./docs/index.html">Get Started</a></li>
-                            <li><a class="dropdown-item" href="./docs/forms.html">Forms</a></li>
-                            <li><a class="dropdown-item" href="./docs/faq.html">FAQ</a></li>
-                            <li><a class="dropdown-item" href="./docs/changelog.html">Changelog</a></li>
-                            <li><a class="dropdown-item" href="./docs/credits.html">Credits</a></li>
-                          </ul>
-                          <h6 class="dropdown-header mt-lg-6">Styleguide</h6>
-                          <ul class="list-unstyled cc-2">
-                            <li><a class="dropdown-item" href="./docs/styleguide/colors.html">Colors</a></li>
-                            <li><a class="dropdown-item" href="./docs/styleguide/fonts.html">Fonts</a></li>
-                            <li><a class="dropdown-item" href="./docs/styleguide/icons-svg.html">SVG Icons</a></li>
-                            <li><a class="dropdown-item" href="./docs/styleguide/icons-font.html">Font Icons</a></li>
-                            <li><a class="dropdown-item" href="./docs/styleguide/illustrations.html">Illustrations</a></li>
-                            <li><a class="dropdown-item" href="./docs/styleguide/backgrounds.html">Backgrounds</a></li>
-                            <li><a class="dropdown-item" href="./docs/styleguide/misc.html">Misc</a></li>
-                          </ul>
+    <div class="page-loader"></div>
+    <div class="content-wrapper">
+        <header class="wrapper bg-light">
+            <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-light">
+                <div class="container flex-lg-row flex-nowrap align-items-center">
+                    <div class="navbar-brand w-100">
+                        <a href="./index.html">
+                            <img src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
+                        </a>
+                    </div>
+                    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                        <div class="offcanvas-header d-lg-none">
+                            <h3 class="text-white fs-30 mb-0">Reg Initiative</h3>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        
-                        <div class="col-lg-8">
-                          <h6 class="dropdown-header">Elements</h6>
-                          <ul class="list-unstyled cc-3">
-                            <li><a class="dropdown-item" href="./docs/elements/accordion.html">Accordion</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/alerts.html">Alerts</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/animations.html">Animations</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/avatars.html">Avatars</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/background.html">Background</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/badges.html">Badges</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/buttons.html">Buttons</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/card.html">Card</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/carousel.html">Carousel</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/dividers.html">Dividers</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/form-elements.html">Form Elements</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/image-hover.html">Image Hover</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/image-mask.html">Image Mask</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/lightbox.html">Lightbox</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/player.html">Media Player</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/modal.html">Modal</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/pagination.html">Pagination</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/progressbar.html">Progressbar</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/shadows.html">Shadows</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/shapes.html">Shapes</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/tables.html">Tables</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/tabs.html">Tabs</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/text-animations.html">Text Animations</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/text-highlight.html">Text Highlight</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/tiles.html">Tiles</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/tooltips-popovers.html">Tooltips & Popovers</a></li>
-                            <li><a class="dropdown-item" href="./docs/elements/typography.html">Typography</a></li>
-                          </ul>
+                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#donate">Donations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#stories">Success Stories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="blog">News & Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
+                            <!-- /.navbar-nav -->
+                            <div class="offcanvas-footer d-lg-none">
+                                <div>
+                                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
+                                    <br /> 00 (123) 456 78 90 <br />
+                                    <nav class="nav social social-white mt-4">
+                                        <a href="#"><i class="uil uil-twitter"></i></a>
+                                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                        <a href="#"><i class="uil uil-dribbble"></i></a>
+                                        <a href="#"><i class="uil uil-instagram"></i></a>
+                                        <a href="#"><i class="uil uil-youtube"></i></a>
+                                    </nav>
+                                    <!-- /.social -->
+                                </div>
+                            </div>
+                            <!-- /.offcanvas-footer -->
                         </div>
-                        
-                      </div>
-                    </li>
-                  </ul>
-                </li> -->
-              </ul>
-              <!-- /.navbar-nav -->
-              <div class="offcanvas-footer d-lg-none">
-                <div>
-                  <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
-                  <br /> 00 (123) 456 78 90 <br />
-                  <nav class="nav social social-white mt-4">
-                    <a href="#"><i class="uil uil-twitter"></i></a>
-                    <a href="#"><i class="uil uil-facebook-f"></i></a>
-                    <a href="#"><i class="uil uil-dribbble"></i></a>
-                    <a href="#"><i class="uil uil-instagram"></i></a>
-                    <a href="#"><i class="uil uil-youtube"></i></a>
-                  </nav>
-                  <!-- /.social -->
+                        <!-- /.offcanvas-body -->
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <div class="navbar-other ms-lg-4">
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item d-lg-none">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li>
+                        </ul>
+                        <!-- /.navbar-nav -->
+                    </div>
+                    <!-- /.navbar-other -->
                 </div>
-              </div>
-              <!-- /.offcanvas-footer -->
-            </div>
-            <!-- /.offcanvas-body -->
-          </div>
-          <!-- /.navbar-collapse -->
-          <div class="navbar-other ms-lg-4">
-            <ul class="navbar-nav flex-row align-items-center ms-auto">
-              <li class="nav-item d-lg-none">
-                <button class="hamburger offcanvas-nav-btn"><span></span></button>
-              </li>
-            </ul>
-            <!-- /.navbar-nav -->
-          </div>
-          <!-- /.navbar-other -->
-        </div>
-        <!-- /.container -->
-      </nav>
-      <!-- /.navbar -->
-    </header>
-    <!-- /header -->
-    <section class="wrapper image-wrapper bg-cover bg-image bg-xs-none bg-gray"
-      data-image-src="./assets/img/photos/bg37.jpg">
-      <div class="container pt-17 pb-15 py-sm-17 py-xxl-20">
-        <div class="row">
-          <div class="col-sm-6 col-xxl-5 text-center text-sm-start" data-cues="slideInDown" data-group="page-title"
-            data-interval="-200" data-delay="500">
-            <h2 class="display-1 fs-56 mb-4 mt-0 mt-lg-5 ls-xs pe-xl-5 pe-xxl-0">Transforming Lives and Empowering <span
-                class="underline-3 style-3 yellow">Communities</span></h2>
-            <p class="lead fs-23 lh-sm mb-7 pe-lg-5 pe-xl-5 pe-xxl-0">We are dedicated to empower the next generation
-              through education & provide access to education funding for underpriviledged students.</p>
-            <div><a href="#about" class="btn btn-lg btn-primary rounded">Read More</a></div>
-          </div>
-          <!--/column -->
-        </div>
-        <!-- /.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-light">
-      <div class="container py-15 py-md-17">
-        <div class="row text-center">
-          <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
-            <h3 class="display-3 ls-sm mb-9 px-xl-11">Our Mission Statement.</h3>
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-        <div class="row gx-lg-8 gx-xl-12 gy-8">
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div>
-                <img src="./assets/img/icons/lineal/shield.svg"
-                  class="svg-inject icon-svg icon-svg-md text-yellow me-5 mt-1" alt="" />
-              </div>
-              <div>
-                <h4 class="fs-20 ls-sm">Mission</h4>
-                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget
-                  elit nullam quis risus eget. id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam
-                  quis risus eget
-                </p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div>
-                <img src="./assets/img/icons/lineal/chat-2.svg"
-                  class="svg-inject icon-svg icon-svg-md text-green me-5 mt-1" alt="" />
-              </div>
-              <div>
-                <h4 class="fs-20 ls-sm">Vision</h4>
-                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget
-                  elit nullam quis risus eget. id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam
-                  quis risus eget</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-md-6 col-lg-4">
-            <div class="d-flex flex-row">
-              <div>
-                <img src="./assets/img/icons/lineal/megaphone.svg"
-                  class="svg-inject icon-svg icon-svg-md text-purple me-5 mt-1" alt="" />
-              </div>
-              <div>
-                <h4 class="fs-20 ls-sm">Objectives</h4>
-                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget
-                  elit nullam quis risus eget.mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio
-                  sem aget elit nullam quis risus eget.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
-      <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100"
-        data-image-src="./assets/img/photos/bg38.jpg">
-        <div class="divider text-gray divider-v-end d-none d-lg-block">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
-            <g />
-            <g>
-              <g>
-                <polygon fill="currentColor" points="48 0 0 0 48 1200 54 1200 54 0 48 0" />
-              </g>
-            </g>
-          </svg>
-        </div>
-      </div>
-      <div class="container" id="donate">
-        <div class="row gx-0">
-          <div class="col-lg-6 ms-auto">
-            <div class="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
-              <h2 class="fs-15 text-uppercase text-muted mb-3">Donations</h2>
-              <h3 class="display-3 ls-sm mb-7">Every Dollar Counts</h3>
-              <div class="d-flex flex-row mb-5">
-                <div>
-                  <img src="./assets/img/icons/lineal/light-bulb.svg"
-                    class="svg-inject icon-svg icon-svg-md text-blue me-5 mt-1" alt="" />
+                <!-- /.container -->
+            </nav>
+            <!-- /.navbar -->
+        </header>
+        <!-- /header -->
+        <section class="wrapper image-wrapper bg-cover bg-image bg-xs-none bg-gray" data-image-src="./assets/img/photos/bg37.jpg">
+            <div class="container pt-17 pb-15 py-sm-17 py-xxl-20">
+                <div class="row">
+                    <div class="col-sm-6 col-xxl-5 text-center text-sm-start" data-cues="slideInDown" data-group="page-title" data-interval="-200" data-delay="500">
+                        <h2 class="display-1 fs-56 mb-4 mt-0 mt-lg-5 ls-xs pe-xl-5 pe-xxl-0">Transforming Lives and Empowering <span class="underline-3 style-3 yellow">Communities</span></h2>
+                        <p class="lead fs-23 lh-sm mb-7 pe-lg-5 pe-xl-5 pe-xxl-0">We are dedicated to empower the next generation
+                            through education & provide access to education funding for underpriviledged students.</p>
+                        <div><a href="#about" class="btn btn-lg btn-primary rounded">Read More</a></div>
+                    </div>
+                    <!--/column -->
                 </div>
-                <div>
-                  <p class="mb-0">We believe that everyone has the power to make a difference, and your contribution can
-                    help us create a better world for all. Every dollar counts, and your donation will make a
-                    significant impact on the lives of those we serve.</p>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-light">
+            <div class="container py-15 py-md-17">
+                <div class="row text-center">
+                    <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
+                        <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
+                        <h3 class="display-3 ls-sm mb-9 px-xl-11">Our Mission Statement.</h3>
+                    </div>
+                    <!-- /column -->
                 </div>
-              </div>
-              <div class="text-center">
-                <button class="btn btn-lg btn-primary rounded mb-3">
-                  Donate Now by Transfer! <br>
-                  Access Bank <br>
-                  0824997744
-                </button>
-                <a href="#" class="btn btn-lg btn-info rounded">
-                  Donate Now by Card
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-white" id="stories">
-      <div class="container py-15 py-md-17">
-        <div class="row text-center">
-          <div class="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
-            <h2 class="fs-15 text-uppercase text-muted mb-3">Success Stories</h2>
-            <h3 class="display-3 ls-sm mb-10">Explore the commuities and lives we've touched</h3>
-          </div>
-          <!-- /column -->
-        </div>
-        <!-- /.row -->
-        <div class="swiper-container blog grid-view mb-10" data-margin="30" data-dots="true" data-items-xl="3"
-          data-items-md="2" data-items-xs="1">
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide">
-                <article>
-                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
-                        src="./assets/img/photos/b4.jpg" alt="" /></a>
-                    <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
-                    </figcaption>
-                  </figure>
-                  <div class="post-header">
-                    <h2 class="post-title h3 ls-sm mb-3"><a class="link-dark" href="./blog-post.html">Ligula tristique
-                        quis risus</a></h2>
-                  </div>
-                  <!-- /.post-header -->
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.post-footer -->
-                </article>
-                <!-- /article -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <article>
-                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
-                        src="./assets/img/photos/b5.jpg" alt="" /></a>
-                    <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
-                    </figcaption>
-                  </figure>
-                  <div class="post-header">
-                    <h2 class="post-title h3 ls-sm mb-3"><a class="link-dark" href="./blog-post.html">Nullam id dolor
-                        elit id nibh</a></h2>
-                  </div>
-                  <!-- /.post-header -->
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>29 Mar 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Workspace</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.post-footer -->
-                </article>
-                <!-- /article -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <article>
-                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
-                        src="./assets/img/photos/b6.jpg" alt="" /></a>
-                    <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
-                    </figcaption>
-                  </figure>
-                  <div class="post-header">
-                    <h2 class="post-title h3 ls-sm mb-3"><a class="link-dark" href="./blog-post.html">Ultricies fusce
-                        porta elit</a></h2>
-                  </div>
-                  <!-- /.post-header -->
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>26 Feb 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Meeting</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.post-footer -->
-                </article>
-                <!-- /article -->
-              </div>
-              <!--/.swiper-slide -->
-              <div class="swiper-slide">
-                <article>
-                  <figure class="overlay overlay-1 hover-scale rounded mb-6"><a href="#"> <img
-                        src="./assets/img/photos/b7.jpg" alt="" /></a>
-                    <figcaption>
-                      <h5 class="from-top mb-0">Read More</h5>
-                    </figcaption>
-                  </figure>
-                  <div class="post-header">
-                    <h2 class="post-title h3 ls-sm mb-3"><a class="link-dark" href="./blog-post.html">Morbi leo risus
-                        porta eget</a></h2>
-                  </div>
-                  <div class="post-footer">
-                    <ul class="post-meta">
-                      <li class="post-date"><i class="uil uil-calendar-alt"></i><span>7 Jan 2022</span></li>
-                      <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Business Tips</a></li>
-                    </ul>
-                    <!-- /.post-meta -->
-                  </div>
-                  <!-- /.post-footer -->
-                </article>
-                <!-- /article -->
-              </div>
-              <!--/.swiper-slide -->
-            </div>
-            <!--/.swiper-wrapper -->
-          </div>
-          <!-- /.swiper -->
-        </div>
-        <!-- /.swiper-container -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
-      <div class="col-lg-6 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100"
-        data-image-src="./assets/img/photos/bg39.jpg">
-        <div class="divider text-gray divider-v-start d-none d-lg-block">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
-            <g />
-            <g>
-              <g>
-                <polygon fill="currentColor" points="6 0 0 0 0 1200 6 1200 54 0 6 0" />
-              </g>
-            </g>
-          </svg>
-        </div>
-      </div>
-      <!--/column -->
-      <div class="container">
-        <div class="row gx-0">
-          <div class="col-lg-6">
-            <div class="pt-13 pb-15 pb-md-17 py-lg-16 pe-lg-15">
-              <h2 class="fs-16 text-uppercase text-muted mb-3">Our Solutions</h2>
-              <h3 class="display-3 ls-sm mb-5">This can be removed. Another Section Be, Creative</h3>
-              <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
-                justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus. Maecenas sed diam eget
-                risus varius blandit sit amet non magna. Praesent commodo cursus magna.</p>
-              <div class="row align-items-center counter-wrapper gy-6">
-                <div class="col-md-6">
-                  <h3 class="counter counter-lg mb-1">99.7%</h3>
-                  <h6 class="fs-17 ls-sm mb-1">Customer Satisfaction</h6>
-                  <span class="ratings five"></span>
+                <!-- /.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-8">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/lineal/shield.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-5 mt-1" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Mission</h4>
+                                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget
+                                    elit nullam quis risus eget. id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam
+                                    quis risus eget
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/lineal/chat-2.svg" class="svg-inject icon-svg icon-svg-md text-green me-5 mt-1" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Vision</h4>
+                                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget
+                                    elit nullam quis risus eget. id luctus erat porttitor ligula, eget lacinia odio sem aget elit nullam
+                                    quis risus eget</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/lineal/megaphone.svg" class="svg-inject icon-svg icon-svg-md text-purple me-5 mt-1" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Objectives</h4>
+                                <p class="mb-0">Duis mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio sem aget
+                                    elit nullam quis risus eget.mollis gravida commodo id luctus erat porttitor ligula, eget lacinia odio
+                                    sem aget elit nullam quis risus eget.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
                 </div>
-                <!--/column -->
-                <div class="col-md-6">
-                  <h3 class="counter counter-lg mb-1">4x</h3>
-                  <h6 class="fs-17 ls-sm mb-1">New Visitors</h6>
-                  <span class="ratings five"></span>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
+            <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-image-src="./assets/img/photos/bg38.jpg">
+                <div class="divider text-gray divider-v-end d-none d-lg-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
+                        <g />
+                        <g>
+                            <g>
+                                <polygon fill="currentColor" points="48 0 0 0 48 1200 54 1200 54 0 48 0" />
+                            </g>
+                        </g>
+                    </svg>
                 </div>
-                <!--/column -->
-              </div>
-              <!--/.row -->
             </div>
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-    <section class="wrapper bg-white" id="about">
-      <div class="container py-15 py-md-17">
-        <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
-          <div class="col-lg-6">
-            <div class="row gx-md-5 gy-5">
-              <div class="col-md-6">
-                <figure class="rounded"><img src="./assets/img/photos/g14.jpg"
-                    srcset="./assets/img/photos/g14@2x.jpg 2x" alt=""></figure>
-              </div>
-              <!--/column -->
-              <div class="col-md-6 align-self-end">
-                <figure class="rounded"><img src="./assets/img/photos/g15.jpg"
-                    srcset="./assets/img/photos/g15@2x.jpg 2x" alt=""></figure>
-              </div>
-              <!--/column -->
-              <div class="col-12">
-                <figure class="rounded mx-md-5"><img src="./assets/img/photos/g16.jpg"
-                    srcset="./assets/img/photos/g16@2x.jpg 2x" alt=""></figure>
-              </div>
-              <!--/column -->
+            <div class="container" id="donate">
+                <div class="row gx-0">
+                    <div class="col-lg-6 ms-auto">
+                        <div class="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
+                            <h2 class="fs-15 text-uppercase text-muted mb-3">Donations</h2>
+                            <h3 class="display-3 ls-sm mb-7">Every Dollar Counts</h3>
+                            <div class="d-flex flex-row mb-5">
+                                <div>
+                                    <img src="./assets/img/icons/lineal/light-bulb.svg" class="svg-inject icon-svg icon-svg-md text-blue me-5 mt-1" alt="" />
+                                </div>
+                                <div>
+                                    <p class="mb-0">We believe that everyone has the power to make a difference, and your contribution can
+                                        help us create a better world for all. Every dollar counts, and your donation will make a
+                                        significant impact on the lives of those we serve.</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-lg btn-primary rounded mb-3">
+                                    Donate Now by Transfer! <br>
+                                    Access Bank <br>
+                                    0824997744
+                                </button>
+                                <a href="#" class="btn btn-lg btn-info rounded">
+                                    Donate Now by Card
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!--/.row -->
-          </div>
-          <!--/column -->
-          <div class="col-lg-6">
-            <!-- <h2 class="fs-15 text-uppercase text-muted mb-3"></h2> -->
-            <h3 class="display-3 ls-sm mb-5">Who Are We?</h3>
-            <p class="mb-6">Welcome to Regenerative Initiative, an education funding NGO dedicated to providing access
-              to quality education for students in need.</p>
-            <p class="mb-6">Our mission is to break down the barriers that prevent children from accessing education by
-              providing financial support to low-income families. We believe that education is a fundamental right, and
-              we are committed to ensuring that every child has the opportunity to learn and succeed.</p>
-            <p class="mb-6">Through our programs, we provide financial assistance to students and families, support
-              educational initiatives, and partner with schools and organizations to create a more equitable and
-              accessible education system.</p>
-            <p class="mb-6">Our website offers a range of resources and information for parents, students, and
-              educators. We provide guidance on the application process for our programs, share success stories from our
-              beneficiaries, and provide resources for parents and educators to help support their students.</p>
-            <p class="mb-6">At Regenarative Initiative, we are passionate about making a difference in the lives of
-              students and families. We believe that education is the key to unlocking a brighter future, and we are
-              committed to supporting the next generation of learners.</p>
-            <p class="mb-6">Thank you for visiting our website, and we invite you to join us in our mission to make
-              education accessible to all.</p>
-            <!-- <div class="row gy-3 gx-xl-8">
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-white" id="stories">
+            <div class="container py-15 py-md-17">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
+                        <h2 class="fs-15 text-uppercase text-muted mb-3">Success Stories</h2>
+                        <h3 class="display-3 ls-sm mb-10">Explore the commuities and lives we've touched</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <div class="swiper-container blog grid-view mb-10" data-margin="30" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+                    <div class="swiper">
+                        <div class="swiper-wrapper"  id="successStory">
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                </div>
+                        <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
+            <div class="col-lg-6 position-lg-absolute top-0 end-0 image-wrapper bg-image bg-cover h-100" data-image-src="./assets/img/photos/bg39.jpg">
+                <div class="divider text-gray divider-v-start d-none d-lg-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 1200">
+                        <g />
+                        <g>
+                            <g>
+                                <polygon fill="currentColor" points="6 0 0 0 0 1200 6 1200 54 0 6 0" />
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <!--/column -->
+            <div class="container">
+                <div class="row gx-0">
+                    <div class="col-lg-6">
+                        <div class="pt-13 pb-15 pb-md-17 py-lg-16 pe-lg-15">
+                            <h2 class="fs-16 text-uppercase text-muted mb-3">Our Solutions</h2>
+                            <h3 class="display-3 ls-sm mb-5">This can be removed. Another Section Be, Creative</h3>
+                            <p class="mb-6">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras
+                                justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus. Maecenas sed diam eget
+                                risus varius blandit sit amet non magna. Praesent commodo cursus magna.</p>
+                            <div class="row align-items-center counter-wrapper gy-6">
+                                <div class="col-md-6">
+                                    <h3 class="counter counter-lg mb-1">99.7%</h3>
+                                    <h6 class="fs-17 ls-sm mb-1">Customer Satisfaction</h6>
+                                    <span class="ratings five"></span>
+                                </div>
+                                <!--/column -->
+                                <div class="col-md-6">
+                                    <h3 class="counter counter-lg mb-1">4x</h3>
+                                    <h6 class="fs-17 ls-sm mb-1">New Visitors</h6>
+                                    <span class="ratings five"></span>
+                                </div>
+                                <!--/column -->
+                            </div>
+                            <!--/.row -->
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-white" id="about">
+            <div class="container py-15 py-md-17">
+                <div class="row gy-10 gy-sm-13 gx-md-8 gx-xl-12 align-items-center mb-10 mb-md-12">
+                    <div class="col-lg-6">
+                        <div class="row gx-md-5 gy-5">
+                            <div class="col-md-6">
+                                <figure class="rounded"><img src="./assets/img/photos/g14.jpg" srcset="./assets/img/photos/g14@2x.jpg 2x" alt=""></figure>
+                            </div>
+                            <!--/column -->
+                            <div class="col-md-6 align-self-end">
+                                <figure class="rounded"><img src="./assets/img/photos/g15.jpg" srcset="./assets/img/photos/g15@2x.jpg 2x" alt=""></figure>
+                            </div>
+                            <!--/column -->
+                            <div class="col-12">
+                                <figure class="rounded mx-md-5"><img src="./assets/img/photos/g16.jpg" srcset="./assets/img/photos/g16@2x.jpg 2x" alt=""></figure>
+                            </div>
+                            <!--/column -->
+                        </div>
+                        <!--/.row -->
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-6">
+                        <!-- <h2 class="fs-15 text-uppercase text-muted mb-3"></h2> -->
+                        <h3 class="display-3 ls-sm mb-5">Who Are We?</h3>
+                        <p class="mb-6">Welcome to Regenerative Initiative, an education funding NGO dedicated to providing access
+                            to quality education for students in need.</p>
+                        <p class="mb-6">Our mission is to break down the barriers that prevent children from accessing education by
+                            providing financial support to low-income families. We believe that education is a fundamental right, and
+                            we are committed to ensuring that every child has the opportunity to learn and succeed.</p>
+                        <p class="mb-6">Through our programs, we provide financial assistance to students and families, support
+                            educational initiatives, and partner with schools and organizations to create a more equitable and
+                            accessible education system.</p>
+                        <p class="mb-6">Our website offers a range of resources and information for parents, students, and
+                            educators. We provide guidance on the application process for our programs, share success stories from our
+                            beneficiaries, and provide resources for parents and educators to help support their students.</p>
+                        <p class="mb-6">At Regenarative Initiative, we are passionate about making a difference in the lives of
+                            students and families. We believe that education is the key to unlocking a brighter future, and we are
+                            committed to supporting the next generation of learners.</p>
+                        <p class="mb-6">Thank you for visiting our website, and we invite you to join us in our mission to make
+                            education accessible to all.</p>
+                        <!-- <div class="row gy-3 gx-xl-8">
               <div class="col-xl-6">
                 <ul class="icon-list bullet-primary mb-0">
                   <li><span><i class="uil uil-check"></i></span><span>Aenean eu leo quam ornare curabitur blandit tempus.</span></li>
@@ -503,159 +324,151 @@
                 </ul>
               </div>
             </div> -->
-            <!--/.row -->
-          </div>
-          <!--/column -->
-        </div>
-        <!--/.row -->
-        <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 mb-md-18">
-          <div class="col-lg-4">
-            <div class="d-flex flex-row">
-              <div>
-                <img src="./assets/img/icons/lineal/target.svg" class="svg-inject icon-svg icon-svg-md text-blue me-5"
-                  alt="" />
-              </div>
-              <div>
-                <h4 class="fs-20 ls-sm">Our Vision</h4>
-                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.
-                  Fusce dapibus tellus.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-lg-4">
-            <div class="d-flex flex-row">
-              <div>
-                <img src="./assets/img/icons/lineal/award-2.svg" class="svg-inject icon-svg icon-svg-md text-green me-5"
-                  alt="" />
-              </div>
-              <div>
-                <h4 class="fs-20 ls-sm">Our Mission</h4>
-                <p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere
-                  consectetur.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-          <div class="col-lg-4">
-            <div class="d-flex flex-row">
-              <div>
-                <img src="./assets/img/icons/lineal/loyalty.svg"
-                  class="svg-inject icon-svg icon-svg-md text-yellow me-5" alt="" />
-              </div>
-              <div>
-                <h4 class="fs-20 ls-sm">Our Values</h4>
-                <p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus
-                  magna scelerisque.</p>
-              </div>
-            </div>
-          </div>
-          <!--/column -->
-        </div>
-      </div>
-      <!-- /.container -->
-    </section>
-    <!-- /section -->
-  </div>
-  <!-- /.content-wrapper -->
-  <footer class="bg-gray" id="contact">
-    <div class="container py-13 py-md-15">
-      <div class="d-lg-flex flex-row align-items-lg-center">
-        <h3 class="display-3 ls-sm mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25">Join our community by using our services
-          and grow your business.</h3>
-        <a href="#" class="btn btn-lg btn-primary rounded mb-0 text-nowrap">Try It For Free</a>
-      </div>
-      <!--/div -->
-      <hr class="mt-11 mb-12" />
-      <div class="row gy-6 gy-lg-0">
-        <div class="col-md-4 col-lg-3">
-          <div class="widget">
-            <img class="mb-4" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
-            <p class="mb-4">© 2023 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
-            <nav class="nav social social-muted">
-              <a href="#"><i class="uil uil-twitter"></i></a>
-              <a href="#"><i class="uil uil-facebook-f"></i></a>
-              <a href="#"><i class="uil uil-dribbble"></i></a>
-              <a href="#"><i class="uil uil-instagram"></i></a>
-              <a href="#"><i class="uil uil-youtube"></i></a>
-            </nav>
-            <!-- /.social -->
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-        <div class="col-md-4 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title ls-sm mb-3">Get in Touch</h4>
-            <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
-            <a href="mailto:#" class="link-body">info@email.com</a><br /> 00 (123) 456 78 90
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-        <div class="col-md-4 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title ls-sm mb-3">Learn More</h4>
-            <ul class="list-unstyled text-reset mb-0">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">Our Story</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Terms of Use</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-        <div class="col-md-12 col-lg-3">
-          <div class="widget">
-            <h4 class="widget-title ls-sm mb-3">Our Newsletter</h4>
-            <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
-            <div class="newsletter-wrapper">
-              <!-- Begin Mailchimp Signup Form -->
-              <div id="mc_embed_signup2">
-                <form
-                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
-                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate "
-                  target="_blank" novalidate>
-                  <div id="mc_embed_signup_scroll2">
-                    <div class="mc-field-group input-group form-floating">
-                      <input type="email" value="" name="EMAIL" class="required email form-control"
-                        placeholder="Email Address" id="mce-EMAIL2">
-                      <label for="mce-EMAIL2">Email Address</label>
-                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
-                        class="btn btn-primary ">
+                        <!--/.row -->
                     </div>
-                    <div id="mce-responses2" class="clear">
-                      <div class="response" id="mce-error-response2" style="display:none"></div>
-                      <div class="response" id="mce-success-response2" style="display:none"></div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-6 mb-15 mb-md-18">
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/lineal/target.svg" class="svg-inject icon-svg icon-svg-md text-blue me-5" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Our Vision</h4>
+                                <p class="mb-2">Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget.
+                                    Fusce dapibus tellus.</p>
+                            </div>
+                        </div>
                     </div>
-                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
-                    <div class="clear"></div>
-                  </div>
-                </form>
-              </div>
-              <!--End mc_embed_signup-->
+                    <!--/column -->
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/lineal/award-2.svg" class="svg-inject icon-svg icon-svg-md text-green me-5" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Our Mission</h4>
+                                <p class="mb-2">Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet. Sed posuere
+                                    consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="./assets/img/icons/lineal/loyalty.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-5" alt="" />
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Our Values</h4>
+                                <p class="mb-2">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus
+                                    magna scelerisque.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
             </div>
-            <!-- /.newsletter-wrapper -->
-          </div>
-          <!-- /.widget -->
-        </div>
-        <!-- /column -->
-      </div>
-      <!--/.row -->
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
     </div>
-    <!-- /.container -->
-  </footer>
-  <div class="progress-wrap">
-    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
-    </svg>
-  </div>
-  <script src="./assets/js/plugins.js"></script>
-  <script src="./assets/js/theme.js"></script>
+    <!-- /.content-wrapper -->
+    <footer class="bg-gray" id="contact">
+        <div class="container py-13 py-md-15">
+            <div class="d-lg-flex flex-row align-items-lg-center">
+                <h3 class="display-3 ls-sm mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25">Join our community by using our services
+                    and grow your business.</h3>
+                <a href="#" class="btn btn-lg btn-primary rounded mb-0 text-nowrap">Try It For Free</a>
+            </div>
+            <!--/div -->
+            <hr class="mt-11 mb-12" />
+            <div class="row gy-6 gy-lg-0">
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <img class="mb-4" src="./assets/img/logo-dark.png" srcset="./assets/img/logo-dark@2x.png 2x" alt="" />
+                        <p class="mb-4">© 2023 Sandbox. <br class="d-none d-lg-block" />All rights reserved.</p>
+                        <nav class="nav social social-muted">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                            <a href="#"><i class="uil uil-dribbble"></i></a>
+                            <a href="#"><i class="uil uil-instagram"></i></a>
+                            <a href="#"><i class="uil uil-youtube"></i></a>
+                        </nav>
+                        <!-- /.social -->
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title ls-sm mb-3">Get in Touch</h4>
+                        <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, London, United Kingdom</address>
+                        <a href="mailto:#" class="link-body">info@email.com</a><br /> 00 (123) 456 78 90
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title ls-sm mb-3">Learn More</h4>
+                        <ul class="list-unstyled text-reset mb-0">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Our Story</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+                <div class="col-md-12 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title ls-sm mb-3">Our Newsletter</h4>
+                        <p class="mb-5">Subscribe to our newsletter to get our news & deals delivered to you.</p>
+                        <div class="newsletter-wrapper">
+                            <!-- Begin Mailchimp Signup Form -->
+                            <div id="mc_embed_signup2">
+                                <form action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate " target="_blank" novalidate>
+                                    <div id="mc_embed_signup_scroll2">
+                                        <div class="mc-field-group input-group form-floating">
+                                            <input type="email" value="" name="EMAIL" class="required email form-control" placeholder="Email Address" id="mce-EMAIL2">
+                                            <label for="mce-EMAIL2">Email Address</label>
+                                            <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                                        </div>
+                                        <div id="mce-responses2" class="clear">
+                                            <div class="response" id="mce-error-response2" style="display:none"></div>
+                                            <div class="response" id="mce-success-response2" style="display:none"></div>
+                                        </div>
+                                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                                        <div class="clear"></div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--End mc_embed_signup-->
+                        </div>
+                        <!-- /.newsletter-wrapper -->
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+            </div>
+            <!--/.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+    <script src="./assets/js/app.js"></script>
+    <script defer src="./assets/js/plugins.js"></script>
+    <script defer src="./assets/js/theme.js"></script>
 </body>
 
 </html>
