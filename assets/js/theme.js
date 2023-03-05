@@ -20,11 +20,11 @@ var theme = {
     theme.imageHoverOverlay();
     theme.rellax();
     theme.scrollCue();
-    theme.swiperSlider();
+    // theme.swiperSlider();
     theme.lightbox();
     theme.plyr();
     theme.progressBar();
-    theme.loader();
+    // theme.loader();
     theme.pageProgress();
     theme.counterUp();
     theme.bsTooltips();
@@ -580,23 +580,6 @@ var theme = {
         offset: 'bottom-in-view',
       })
     });
-  },
-  /**
-   * Loader
-   * 
-   */
-  loader: () => {
-    var preloader = document.querySelector('.page-loader');
-    if(preloader != null) {
-      document.body.onload = function(){
-        setTimeout(function() {
-          if( !preloader.classList.contains('done') )
-          {
-            preloader.classList.add('done');
-          }
-        }, 1000)
-      }
-    }
   },
   /**
    * Page Progress

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="elemis">
+    <title>Regenarative Initiative</title>
+    <link rel="shortcut icon" href="./assets/img/favicon.png">
+    <link rel="stylesheet" href="./assets/css/plugins.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/colors/navy.css">
+</head>
+
+<body onload="fetchPost">
+    <script>
+        function fetchPost(){
+        fetch('https://www.googleapis.com/blogger/v3/blogs/6098245948249025123/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A').then(res=>res.json()).then(dt=>{
+            console.log(dt.items);
+            localStorage.setItem('regini', JSON.stringify(dt.items))
+            // return dt.items;
+        })
+    }
+    </script>
+    <!-- v-scope value can be omitted -->
+    <!-- <div v-scope>
+  <p>{{ count }}</p>
+  <p>{{ plusOne }}</p>
+  <button @click="increment">increment</button>
+</div> -->
+    <!-- <style>
+  [v-cloak] {
+    display: none;
+  }
+</style> -->
+    <!-- 6098245948249025123 -->
+    <!-- https://www.googleapis.com/blogger/v3/blogs/6098245948249025123?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A -->
+    <!-- https://www.googleapis.com/blogger/v3/blogs/6098245948249025123/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A -->
+    <script type="module">
+        // import { createApp } from './assets/js/petite.js'
+import { createApp, reactive } from 'https://unpkg.com/petite-vue?module'
+const store = reactive({
+
+    count: 0,
+    inc() {
+      this.count++
+    },
+    blogStorage: {
+    pull(){
+        const posts = fetch('https://www.googleapis.com/blogger/v3/blogs/6098245948249025123/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A').then(res=>res.json()).then(dt=>{
+            console.log(dt.items);
+            return dt.items;
+        })
+    }
+  },
+  })
+
+  // manipulate it here
+  // store.inc()
+  const STORAGE_KEY = 'todos-petite-vue'
+  const todoStorage = {
+    fetch() {
+      const todos = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
+      todos.forEach((todo, index) => {
+        todo.id = index
+      })
+      todoStorage.uid = todos.length
+      return todos
+    },
+    save(todos) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
+    }
+  }
+
+  const STORAGE = 'regini'
+  const blogStorage = {
+    pull(){
+        const posts = fetch('https://www.googleapis.com/blogger/v3/blogs/6098245948249025123/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A').then(res=>res.json()).then(dt=>{
+            console.log(dt.items);
+            localStorage.setItem(STORAGE, JSON.stringify(dt.items))
+            return dt.items;
+        })
+    },
+    fetch() {
+        this.pull()
+      const blog = JSON.parse(localStorage.getItem(STORAGE) || '[]')
+      console.log(blog)
+      return blog
+    },
+    save(blogs) {
+      localStorage.setItem(STORAGE, JSON.stringify(blogs))
+    }
+  }
+
+  const blogFilters = {
+    featured(blogs){
+        return blogs.filter( (blog)=>{
+            return blog.labels.includes('Student')?blog:null
+        })
+    }
+  }
+
+  createApp({
+    store,
+    todos: todoStorage.fetch(),
+    blogs: blogStorage.fetch(),
+    newTodo: '',
+    editedTodo: null,
+    visibility: 'all',
+
+    fetchPosts(){
+        fetch('https://www.googleapis.com/blogger/v3/blogs/6098245948249025123/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A').then(res=>res.json()).then(dt=>{
+            console.log(dt.items);
+            localStorage.setItem(STORAGE, JSON.stringify(dt.items))
+            // return dt.items;
+        })
+    },
+
+    get filteredPosts(){
+        // blogStorage.pull()
+        setTimeout(()=>{
+            return blogFilters.featured(this.blogs)
+        }, 3000)
+    },
+
+    get allDone() {
+      return this.remaining === 0
+    },
+
+    set allDone(value) {
+      this.todos.forEach(function (todo) {
+        todo.completed = value
+      })
+    },
+
+    setupRouting() {
+      const onHashChange = () => {
+        var visibility = window.location.hash.replace(/#\/?/, '')
+        if (filters[visibility]) {
+          this.visibility = visibility
+        } else {
+          window.location.hash = ''
+          this.visibility = 'all'
+        }
+      }
+      window.addEventListener('hashchange', onHashChange)
+      onHashChange()
+    },
+  }).mount('#app')
+</script>
+    <div id="app" @mounted="fetchPosts" v-effect="" v-cloak>
+        <section class="wrapper bg-white" id="stories">
+            <div class="container py-15 py-md-17">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
+                        <h2 class="fs-15 text-uppercase text-muted mb-3">Success Stories</h2>
+                        <h3 class="display-3 ls-sm mb-10">Explore the commuities and lives we've touched</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                {{store.count}}
+                <button class="btn" @click="{store.inc()}">UP</button>
+                <div class="swiper-container blog grid-view mb-10" data-margin="30" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+                    <div class="swiper" v-show="blogs.length">
+                         <!-- <li v-for="todo in filteredTodos" class="todo" :key="todo.id" :class="{ completed: todo.completed, editing: todo === editedTodo }">
+                        <div class="view">
+                            <input class="toggle" type="checkbox" v-model="todo.completed" />
+                            <label @dblclick="editTodo(todo)">{{ todo.title }}</label>
+                            <button class="destroy" @click="removeTodo(todo)"></button>
+                        </div>
+                        <input class="edit" type="text" v-model="todo.title" v-effect="if (todo === editedTodo) $el.focus()" @blur="doneEdit(todo)" @keyup.enter="doneEdit(todo)" @keyup.escape="cancelEdit(todo)" />
+                    </li> -->
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide" v-for="post in filteredPosts" :key="post.id">
+                                <article class="card shadow-lg card-border-start border-secondary card-body">
+                                    <p class="text-right badge badge-xl bg-primary rounded-pill">Business</p>
+                                    <div class="post-header">
+                                        <h2 class="post-title h2 ls-sm mb-3"><a class="link-dark" href="./blog-post.html">{{post.title}}</a></h2>
+                                    </div>
+                                    <div class="post-footer">
+                                        <ul class="post-meta">
+                                            <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
+                                            <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
+                                        </ul>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                        <!--/.swiper-wrapper -->
+                    </div>
+                    <!-- /.swiper -->
+                </div>
+                <!-- /.swiper-container -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+    </div>
+    <script src="./assets/js/plugins.js"></script>
+    <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
