@@ -1,0 +1,8 @@
+{
+    "name": "tester",
+    "source":"./src/vendor/index.js",
+    "main":"dist/src.js",
+    "devDependencies": {
+        "parcel": "latest"
+    }
+}
