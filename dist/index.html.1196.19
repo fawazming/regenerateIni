@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="elemis">
+    <title>Regenarative Initiative</title>
+    <link rel="shortcut icon" href="/favicon.c48429f6.png">
+    <link rel="stylesheet" href="/index.8a584103.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <link rel="stylesheet" href="/index.ec5c3265.css">
+</head>
+
+<body>
+    <div class="page-loader"></div>
+    <div class="content-wrapper">
+        <header class="wrapper bg-light">
+            <nav class="navbar navbar-expand-lg classic transparent position-absolute navbar-light">
+                <div class="container flex-lg-row flex-nowrap align-items-center">
+                    <div class="navbar-brand w-100">
+                        <a href="/index.html">
+                            <img src="/logo.7c849107.png" alt="">
+                        </a>
+                    </div>
+                    <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+                        <div class="offcanvas-header d-lg-none">
+                            <h3 class="text-white fs-30 mb-0">Reg Initiative</h3>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/about.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#donate">Donations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#stories">Success Stories</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/news.html">News & Events</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact Us</a>
+                                </li>
+                            </ul>
+                            <!-- /.navbar-nav -->
+                            <div class="offcanvas-footer d-lg-none">
+                                <div>
+                                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
+                                    <br> 00 (123) 456 78 90 <br>
+                                    <nav class="nav social social-white mt-4">
+                                        <a href="#"><i class="uil uil-twitter"></i></a>
+                                        <a href="#"><i class="uil uil-facebook-f"></i></a>
+                                        <a href="#"><i class="uil uil-dribbble"></i></a>
+                                        <a href="#"><i class="uil uil-instagram"></i></a>
+                                        <a href="#"><i class="uil uil-youtube"></i></a>
+                                    </nav>
+                                    <!-- /.social -->
+                                </div>
+                            </div>
+                            <!-- /.offcanvas-footer -->
+                        </div>
+                        <!-- /.offcanvas-body -->
+                    </div>
+                    <!-- /.navbar-collapse -->
+                    <div class="navbar-other ms-lg-4">
+                        <ul class="navbar-nav flex-row align-items-center ms-auto">
+                            <li class="nav-item d-lg-none">
+                                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                            </li>
+                        </ul>
+                        <!-- /.navbar-nav -->
+                    </div>
+                    <!-- /.navbar-other -->
+                </div>
+                <!-- /.container -->
+            </nav>
+            <!-- /.navbar -->
+        </header>
+        <!-- /header -->
+        <section class="wrapper image-wrapper bg-cover bg-image bg-xs-none bg-gray" data-image-src="./assets/img/photos/bg37.jpg">
+            <div class="container pt-17 pb-15 py-sm-17 py-xxl-20">
+                <div class="row">
+                    <div class="col-sm-6 col-xxl-5 text-center text-sm-start" data-cues="slideInDown" data-group="page-title" data-interval="-200" data-delay="500">
+                        <h2 class="display-1 fs-56 mb-4 mt-0 mt-lg-5 ls-xs pe-xl-5 pe-xxl-0">The Regenerate initiative (TRI) for Community Health and <span class="underline-3 style-3 yellow"> Youth Development </span></h2>
+                        <p class="lead fs-23 lh-sm mb-7 pe-lg-5 pe-xl-5 pe-xxl-0"> … the change starts with you</p>
+                        <div><a href="/about.html" class="btn btn-lg btn-primary rounded">Read More</a></div>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-light">
+            <div class="container pt-10 pt-md-12">
+                <div class="row text-center">
+                    <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
+                        <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2> -->
+                        <h3 class="display-3 ls-sm mb-9 px-xl-11">Our Mission Statement.</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-8">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/chat-2.64832694.svg" class="svg-inject icon-svg icon-svg-md text-green me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Vision</h4>
+                                <p class="mb-0">To regenerate communities in Nigeria through promotion of healthy living and total youth development </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/shield.ab959ef5.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Mission</h4>
+                                <p class="mb-0">To regenerate communities in Nigeria for sustainable development through effective mobilization of resources for community health, education and empowerment of youths and community projects
+                            </p></div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/megaphone.2f51ef49.svg" class="svg-inject icon-svg icon-svg-md text-purple me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Our Core Values</h4>
+                                <p class="mb-0">Philosophically and by operations, The Regenerate Initiative TRI is guided by the international best practices embedded in our core values acronymed thus: <b>ETICARP</b></p>
+                                <ul class="d-flex flex-wrap list-unstyled">
+                                    <li class="px-1"><b>E:</b> Ethics</li>
+                                    <li class="px-1"><b>T:</b> Transparency</li>
+                                    <li class="px-1"><b>I:</b> Integrity</li>
+                                    <li class="px-1"><b>C:</b> Compassion</li>
+                                    <li class="px-1"><b>A:</b> Accountability</li>
+                                    <li class="px-1"><b>R:</b> Responsibility</li>
+                                    <li class="px-1"><b>P:</b> Professionalism</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <!-- objectives -->
+        <section class="wrapper bg-gray">
+            <div class="container py-10 py-md-12">
+                <div class="row mb-3">
+                    <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
+                        <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">Our Team</h2> -->
+                        <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Our Objectives</h3>
+                    </div>
+                    <!--/column -->
+                </div>
+                <!--/.row -->
+                <div class="row">
+                    <div class="col-xl-11 mx-auto">
+                        <div class="row gx-md-8 gx-xl-12 gy-10 px-lg-5">
+                            <div class="col-lg-6">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <img src="/check-list.9dbf8ddc.svg" class="svg-inject icon-svg icon-svg-sm text-blue me-5 mt-1" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="fs-20 ls-sm">To moblise resources to help the less privileged, indigents, vulnerable groups in their health and education needs towards making Nigeria a better place; </h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /column -->
+                            <div class="col-lg-6">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <img src="/tie.f12d1e9a.svg" class="svg-inject icon-svg icon-svg-sm text-yellow me-5 mt-1" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="fs-20 ls-sm">To sensitize and encourage youths towards a clear career path for future strategic positioning and meaningful contribution to the development of Nigeria;</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /column -->
+                            <div class="col-lg-6">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <img src="/tools.eb9b0ce4.svg" class="svg-inject icon-svg icon-svg-sm text-pink me-5 mt-1" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="fs-20 ls-sm">To mobilise resources towards the construction of essential community projects like public toilets, borehole drilling and other relevant community projects</h4>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /column -->
+                            <div class="col-lg-6">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <img src="/coin.87be5fbd.svg" class="svg-inject icon-svg icon-svg-sm text-green me-5 mt-1" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="fs-20 ls-sm">To partner with the government, civil society groups and other relevant institutions to alleviate poverty and improve the well-being within communities, groups and individuals in Nigeria; and</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /column -->
+                            <div class="col-lg-6">
+                                <div class="d-flex flex-row">
+                                    <div>
+                                        <img src="/agenda.dba39f36.svg" class="svg-inject icon-svg icon-svg-sm text-green me-5 mt-1" alt="">
+                                    </div>
+                                    <div>
+                                        <h4 class="fs-20 ls-sm">To organise regular capacity building programmes for key stakeholders relevant to achieve better community health and youth development for a better Nigeria.</h4>
+                                        <!-- <p class="mb-0">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod.</p> -->
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /column -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <!-- objectives -->
+        <!-- SERVICES -->
+        <section class="wrapper bg-light">
+            <div class="container py-10 py-md-10">
+                <div class="row text-center">
+                    <div class="col-md-10 col-lg-9 col-xxl-8 mx-auto">
+                        <h2 class="fs-15 text-uppercase text-muted mb-3">What We Do?</h2>
+                        <h3 class="display-3 ls-sm mb-9 px-xl-11">Our Specific Activities and Programmes</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <!-- /.row -->
+                <div class="row gx-lg-8 gx-xl-12 gy-8">
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/certificate.6bae79df.svg" class="svg-inject icon-svg icon-svg-md text-blue me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Education Support Fund (ESF)</h4>
+                                <p class="mb-0">We assist and support students across the country, who are financially challenged, to pay their school fees. It may be a total payment for an academic session, a part payment for an academic session or a full sponsorship throughout the academic programme. Our approach and process are rigorous and based on research before a student-applicant can qualify as a beneficiary.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/group-2.ad95beb9.svg" class="svg-inject icon-svg icon-svg-md text-orange me-5" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Community Development Projects (CDP)</h4>
+                                <p class="mb-0">We initiate and mobilise resources for the execution of valuable and essential community projects including, but not limited to, public toilets, borehole, free medical service/medical caravan, sensitization on public health issues, hygiene living among the community people, donation and distribution of educational materials, and health materials/needs to the sick.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/money.3af78e8a.svg" class="svg-inject icon-svg icon-svg-md text-pink me-5" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Youth Empowerment Scheme (YES)</h4>
+                                <p class="mb-0">We assist and support youths across the country, who are financially challenged, to acquire tools and equipment for their craftwork in order to be empowered and self-dependent economically. Our empowerment may also come in form of start-up fund after our in-house or outsourced experts must have done a critical assessment of the business proposal submitted by applicants and prospective beneficiaries. Our approach in this case is that we go all out to acquire or purchase the tools or equipment needed ourselves. We do not give the fund to the beneficiaries. We acquire the tools and equipment in the name of the beneficiaries and present to them. Depending on the availability of fund, our support may be total or partial.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/medal.6687fb6a.svg" class="svg-inject icon-svg icon-svg-md text-green me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Youth Sensitisation and Value Reorientation (YSVR)</h4>
+                                <p class="mb-0">We embark on public campaign to sensitise and re-orientate the youthful population in Nigeria on essential values, norms attitudes and behaviours that are in tandem with our cultural identity and values. These include: integrity, honesty, hard-work, responsibility, civility, respect, selflessness, dignity, patriotism, sacrifice, unity, appreciation of diversity. While we re-orientate the youths toward all of these values, we also campaign against many misdemeanours including, but not limited to, drug intakes and abuse, gambling, cybercrime, destructive tendencies, ritualism, get-rich-quick syndrome, academic fraudulence and cultism. Our youth sensitization and Value Reorientation activities are actualised through public lectures, commemoration lectures on international youth or similar global dates, guidance and counselling sessions and other similar public campaign outings.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/controller.86ac5d65.svg" class="svg-inject icon-svg icon-svg-md text-purple me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Capacity Building Programmes (CBP)</h4>
+                                <p class="mb-0">We also organise capacity building programmes for important stakeholders who can be instrumental towards the achievement of our vision, mission and objectives. These stakeholders may include, but not limited to, youth leaders, health care providers, community leaders, leaders of community organisations, campus organisation leaders, principals of secondary schools, guidance and counsellors of secondary schools, religious organisation leaders.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/handshake.283ab35d.svg" class="svg-inject icon-svg icon-svg-md text-purple me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Coaching and Mentorship Programme (CMP)</h4>
+                                <p class="mb-0">We provide platforms for mentorship to the youths across Nigeria. Our mentorship programme is designed to lift the younger generation and ease their tasks regarding career progression, timely and strategic actualization of dream, networking and connection for professional advancement. We have assisted many young minds though our CMP and they are our pride today.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/column -->
+                    <div class="col-md-6">
+                        <div class="d-flex flex-row">
+                            <div>
+                                <img src="/heart.221eb86a.svg" class="svg-inject icon-svg icon-svg-md text-yellow me-5 mt-1" alt="">
+                            </div>
+                            <div>
+                                <h4 class="fs-20 ls-sm">Medical Support Fund (MSF)</h4>
+                                <p class="mb-0">We assist and support people across the country, who are financially challenged but have serious and severe medical condition, to pay their medical bills. It may be a total payment or a part payment. Our approach and process are rigorous and based on research before an applicant can qualify as a beneficiary.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- /section -->
+        <!-- SERVICES -->
+        <section class="wrapper bg-gray position-relative min-vh-60 d-lg-flex align-items-center">
+            <div class="col-lg-6 position-lg-absolute top-0 start-0 image-wrapper bg-image bg-cover h-100" data-image-src="./assets/img/photos/bg38.jpg">
+                <div class="divider text-gray divider-v-end d-none d-lg-block">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 54 1200">
+                        <g></g>
+                        <g>
+                            <g>
+                                <polygon fill="currentColor" points="48 0 0 0 48 1200 54 1200 54 0 48 0"></polygon>
+                            </g>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+            <div class="container" id="donate">
+                <div class="row gx-0">
+                    <div class="col-lg-6 ms-auto">
+                        <div class="pt-13 pb-15 pb-md-17 py-lg-16 ps-lg-15 pe-xxl-16">
+                            <h2 class="fs-15 text-uppercase text-muted mb-3">Donations</h2>
+                            <h3 class="display-3 ls-sm mb-7">Every Dollar Counts</h3>
+                            <div class="d-flex flex-row mb-5">
+                                <div>
+                                    <img src="/light-bulb.2e747adc.svg" class="svg-inject icon-svg icon-svg-md text-blue me-5 mt-1" alt="">
+                                </div>
+                                <div>
+                                    <p class="mb-0">We believe that everyone has the power to make a difference, and your contribution can
+                                        help us create a better world for all. Every dollar counts, and your donation will make a
+                                        significant impact on the lives of those we serve.</p>
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-lg btn-primary rounded mb-3">
+                                    Donate Now by Transfer! <br>
+                                    Access Bank <br>
+                                    0824997744
+                                </button>
+                                <a href="#" class="btn btn-lg btn-info rounded">
+                                    Donate Now by Card
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /section -->
+        <section class="wrapper bg-white" id="stories">
+            <div class="container pt-10 pt-md-12">
+                <div class="row text-center">
+                    <div class="col-lg-10 col-xl-7 col-xxl-6 mx-auto">
+                        <h2 class="fs-15 text-uppercase text-muted mb-3">Success Stories</h2>
+                        <h3 class="display-3 ls-sm mb-10">Explore the commuities and lives we've touched</h3>
+                    </div>
+                    <!-- /column -->
+                </div>
+                <div class="swiper-container blog grid-view mb-10" data-margin="30" data-dots="true" data-items-xl="3" data-items-md="2" data-items-xs="1">
+                    <div class="swiper">
+                        <div class="swiper-wrapper" id="successStory">
+                            <!-- /.row -->
+                        </div>
+                    </div>
+                </div>
+                <!-- /.container -->
+        </div></section>
+    </div>
+    <!-- /.content-wrapper -->
+    <!-- OBJECTIVES -->
+    <section class="wrapper bg-white">
+        <div class="container py-10 py-md-12">
+            <div class="row mb-3">
+                <div class="col-md-10 col-lg-12 col-xl-10 col-xxl-9 mx-auto text-center">
+                    <!-- <h2 class="fs-15 text-uppercase text-muted mb-3">Our Team</h2> -->
+                    <h3 class="display-4 mb-7 px-lg-19 px-xl-18">Our Team</h3>
+                </div>
+                <!--/column -->
+            </div>
+            <!--/.row -->
+            <div class="row grid-view gx-md-8 gx-xl-10 gy-8 gy-lg-0">
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top" width="400px"><img class="img-fluid" src="/drBello.3c895a0b.jpg" alt="Dr. Semiu Bello"></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Dr. Bello S. M.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:2348030466019"><i class="uil uil-phone"></i></a>
+                                        <a href="mailto:semiubelloola@gmail.com"><i class="uil uil-message"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">Founder and National Coordinator</p>
+                                <p class="mb-0">PhD, M.Sc., MMRM, B.A, HND</p>
+                                <p class="mb-0">Health and Development Communication Expert</p>
+                                <p class="mb-0">Senior Lecturer at Kwara State University Nigeria</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top" width="400px"><img class="img-fluid" src="https://picsum.photos/581/540" alt="Dr. Obipehin W. O"></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Dr. Obipehin W. O.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:2348062592561"><i class="uil uil-phone"></i></a>
+                                        <!-- <a href="mailto:semiubelloola@gmail.com"><i class="uil uil-message"></i></a> -->
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI In-House Medical Doctor</p>
+                                <p class="mb-0">MSc (Anatomy), MbChB</p>
+                                <p class="mb-0">Medical Practitioner</p>
+                                <p class="mb-0">Resident Doctor at Olabisi Onabanjo University Teaching Hospital Sagamu</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top" width="400px"><img class="img-fluid" src="/drAina.21f69a23.jpg" alt="Dr. Aina S. A."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Dr. Aina S. A.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2348056144796"><i class="uil uil-phone"></i></a>
+                                        <!-- <a href="mailto:semiubelloola@gmail.com"><i class="uil uil-message"></i></a> -->
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Research and Linkages Officer</p>
+                                <p class="mb-0">PhD, M.Sc, B.Sc</p>
+                                <p class="mb-0">Entomologist and Pest Manager</p>
+                                <p class="mb-0">Lecturer at Olabisi Onabanjo University Ago Iwoye</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="/mrTijani.bcc303c8.jpg" alt="Mr. Tijani M. A."></figure>
+                            <div class="card-body px-6 py-5">
+                             <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Mr. Tijani M. A.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2348023928307"><i class="uil uil-phone"></i></a>
+                                        <!-- <a href="mailto:semiubelloola@gmail.com"><i class="uil uil-message"></i></a> -->
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Public Health Advocacy Officer</p>
+                                <p class="mb-0">M.Sc, MPH, B.Sc</p>
+                                <p class="mb-0">Public Health Specialist</p>
+                                <p class="mb-0">Public Health Expert with Ogun State Ministry of Health</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-red rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="https://picsum.photos/581/540" alt="Mr. Muritala B. F."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Mr. Muritala B. F.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2347080508894"><i class="uil uil-phone"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Programme, Logistics and Mobilisation Officer</p>
+                                <!-- <p class="mb-0">M.Sc, MPH, B.Sc</p> -->
+                                <p class="mb-0">Business and Financial Expert</p>
+                                <p class="mb-0">CEO of Famam Integrated Ventures</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="/mrsAdekoga.6582bba4.jpg" alt="Mrs. Adekoga N. O."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Mrs. Adekoga N. O.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+61431079704"><i class="uil uil-phone"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Communication and Media Manager</p>
+                                <p class="mb-0">M.Sc, B.A., OND</p>
+                                <p class="mb-0">Communication Expert</p>
+                                <!-- <p class="mb-0">CEO of Famam Integrated Ventures</p> -->
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-blue rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="/mrAnifowose.5922200a.jpg" alt="Mr. Anifowose L. O."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Mr. Anifowose L. O.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2348065020562"><i class="uil uil-phone"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Research and Data Analyst </p>
+                                <p class="mb-0">M.Sc., M.Sc., B.Tech</p>
+                                <p class="mb-0">Biochemistry Scholar and Researcher</p>
+                                <!-- <p class="mb-0">CEO of Famam Integrated Ventures</p> -->
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-violet rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="/mrAdekunle.932074ec.jpg" alt="Mr. Adekunle H. T."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Mr. Adekunle H. T.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2347014074211"><i class="uil uil-phone"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Financial Officer</p>
+                                <p class="mb-0">B.Sc., ACA, ACMA, CGMA</p>
+                                <!-- <p class="mb-0">Biochemistry Scholar and Researcher</p> -->
+                                <p class="mb-0">Financial and Accounting Specialist Maikano Motors, Lagos</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-green rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="/mrRaji.e493d9fd.jpg" alt="Mr. Raji M.O."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Mr. Raji M.O.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2348162447475"><i class="uil uil-phone"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI IT & Social Media Officer</p>
+                                <p class="mb-0">B.Sc., OND</p>
+                                <p class="mb-0">Journalist and Media Expert</p>
+                                <p class="mb-0">Senior Correspondent Vanguards Newspaper, Nigeria</p>
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+                <div class="col-md-6 col-lg-4 mb-3">
+                    <div class="position-relative">
+                        <div class="shape rounded bg-soft-indigo rellax d-md-block" data-rellax-speed="0" style="width: 98%; height: 98%; z-index: 0; bottom: -.75rem; right: -.75rem"></div>
+                        <div class="card">
+                            <figure class="card-img-top"><img class="img-fluid" src="https://picsum.photos/581/540" alt="Esq. Suleiman I. A."></figure>
+                            <div class="card-body px-6 py-5">
+                                <div class="d-flex flex-row justify-content-between">
+                                    <h3 class="mb-1">Esq. Suleiman I. A.</h3>
+                                    <div class="d-flex nav social social-muted">
+                                        <a href="tel:+2348054117580"><i class="uil uil-phone"></i></a>
+                                    </div>
+                                </div>
+                                <p class="mb-0 lead fw-md">TRI Legal Adviser</p>
+                                <p class="mb-0">LLB, BL, B.Sc</p>
+                                <p class="mb-0">Legal Practitioner</p>
+                                <!-- <p class="mb-0">Senior Correspondent Vanguards Newspaper, Nigeria</p> -->
+                            </div>
+                            <!--/.card-body -->
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /div -->
+                </div>
+                <!--/column -->
+            </div>
+            <!--/.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <footer class="bg-gray" id="contact">
+        <div class="container pt-13 pt-md-15 pb-10">
+            <div class="d-lg-flex flex-row align-items-lg-center">
+                <h3 class="display-3 ls-sm mb-6 mb-lg-0 pe-lg-20 pe-xl-22 pe-xxl-25">Volunteers can reach out to us to identify with what we do, and use our platform to render community services to many individuals and communities for a better Nigeria.</h3>
+                <a href="#" class="btn btn-lg btn-primary rounded mb-0 text-nowrap">Reach out</a>
+            </div>
+            <!--/div -->
+            <hr class="mt-11 mb-12">
+            <div class="row gy-6 gy-lg-0">
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <img class="mb-4" src="/logo.7c849107.png" alt="">
+                        <!-- <p class="mb-4">© 2023 Re. <br class="d-none d-lg-block" />All rights reserved.</p> -->
+                        <br>
+                        <a href="mailto:regenerateinitiative@gmail.com" class="link-body">regenerateinitiative@gmail.com</a><br> +2348030466019 <br> +2349076690510
+                        <nav class="nav social social-muted">
+                            <a href="#"><i class="uil uil-twitter"></i></a>
+                            <a href="#"><i class="uil uil-facebook-f"></i></a>
+                        </nav>
+                        <!-- /.social -->
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title ls-sm mb-3">Get in Touch</h4>
+                        <address class="pe-xl-15 pe-xxl-17">Moonshine St. 14/05 Light City, Sagamu, Nigeria</address>
+
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+                <div class="col-md-4 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title ls-sm mb-3">Learn More</h4>
+                        <ul class="list-unstyled text-reset mb-0">
+                            <li><a href="/about.html">About Us</a></li>
+                            <li><a href="#stories">Our Story</a></li>
+                            <li><a href="#donate">Donate</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+                <div class="col-md-12 col-lg-3">
+                    <div class="widget">
+                        <h4 class="widget-title ls-sm mb-3">Our Newsletter</h4>
+                        <p class="mb-5"></p>
+                        <div class="newsletter-wrapper">
+                            <div id="mc_embed_signup2">
+                                <form action="" method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form" class="validate " target="_blank" novalidate="">
+                                    <div id="mc_embed_signup_scroll2">
+                                        <div class="mc-field-group input-group form-floating">
+                                            <input type="email" value="" name="email" class="required email form-control" placeholder="Email Address">
+                                            <label for="mce-EMAIL2">Email Address</label>
+                                            <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2" class="btn btn-primary ">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <!--End mc_embed_signup-->
+                        </div>
+                        <!-- /.newsletter-wrapper -->
+                    </div>
+                    <!-- /.widget -->
+                </div>
+                <!-- /column -->
+            </div>
+            <!--/.row -->
+        </div>
+        <!-- /.container -->
+    </footer>
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewbox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
+        </svg>
+    </div>
+
+<script src="/regenerateIni.59712999.js"></script></body>
+
+</html>
