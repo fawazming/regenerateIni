@@ -11101,6 +11101,9 @@ fieldset:disabled .btn {
 .lh-lg {
   line-height: 1.9 !important;
 }
+.text-justify {
+  text-align: justify !important;
+}
 .text-start {
   text-align: left !important;
 }

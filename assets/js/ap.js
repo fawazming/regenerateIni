@@ -1,4 +1,10 @@
-
+document.querySelector('#sharer').addEventListener('click', ()=>{
+    navigator.share({
+      title: document.querySelector('#title').innerText,
+      // text: 'Hello World',
+      url: window.location,
+    });
+})
 document.addEventListener('DOMContentLoaded', function() {
     // 6098245948249025123 success Stories
     // 1346166897209287770 news & Event
@@ -20,7 +26,6 @@ document.addEventListener('DOMContentLoaded', function() {
     let comments = document.querySelector('#comments');
     let catg = document.querySelector('#catg');
     let story = dt
-    console.log(story)
     let output = story.content;
     successStory.innerHTML = output;
     title.innerHTML = story.title;

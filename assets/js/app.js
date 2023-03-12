@@ -12,17 +12,17 @@ document.addEventListener('DOMContentLoaded', function() {
         successStory.innerHTML += output;
     }else{
     posts.forEach( (post)=>{
+        console.log(post);
         output += `
         <div class="swiper-slide" role="group" aria-label="5 / 5" style="width: 410px; margin-right: 30px;">
             <article class="card shadow-lg card-border-start border-secondary card-body">
-                <p class="text-right badge badge-xl bg-primary rounded-pill">Business</p>
+                <p class="text-right badge badge-xl bg-primary rounded-pill">${post.labels?post.labels[0]:'No Category'}</p>
                 <div class="post-header">
                     <h2 class="post-title h2 ls-sm mb-3"><a class="link-dark" href="./post.html?cat=2&post=${post.id}">${post.title}</a></h2>
                 </div>
                 <div class="post-footer">
                     <ul class="post-meta">
-                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>14 Apr 2022</span></li>
-                        <li class="post-comments"><a href="#"><i class="uil uil-file-alt fs-15"></i>Coding</a></li>
+                        <li class="post-date"><i class="uil uil-calendar-alt"></i><span>${post.updated.split('T')[0]}</span></li>
                     </ul>
                 </div>
             </article>

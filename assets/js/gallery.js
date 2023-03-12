@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
         `;
     } )
     gallery.innerHTML = output;
-    theme.swiperSlider();
+    theme.isotope();
 }
     if (!preloader.classList.contains('done')) {
             preloader.classList.add('done');

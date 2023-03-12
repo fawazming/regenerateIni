@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     // 6098245948249025123 success Stories
     // 1346166897209287770 news & Event
-    fetch('https://www.googleapis.com/blogger/v3/blogs/6098245948249025123/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A').then(res => res.json()).then(dt => {
+    fetch('https://www.googleapis.com/blogger/v3/blogs/1346166897209287770/posts?key=AIzaSyAs1JcNpnxTfddX1Qs9x-tEY7hQYh6_77A').then(res => res.json()).then(dt => {
     let preloader = document.querySelector('.page-loader');
     let successStory = document.querySelector('#successStory');
     let posts = dt.items
@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="card-body">
             <div class="post-header">
                 <div class="post-category text-line">
-                    <a href="#" class="hover" rel="category">${post.label?post.label[0]:'No Category'}</a>
+                    <a href="#" class="hover" rel="category">${post.labels?post.labels[0]:'No Category'}</a>
                 </div>
                 <!-- /.post-category -->
-                <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./post.html?cat=2&post=${post.id}">${post.title}</a></h2>
+                <h2 class="post-title h3 mt-1 mb-3"><a class="link-dark" href="./post.html?cat=1&post=${post.id}">${post.title}</a></h2>
             </div>
             <div class="post-content">
                 <p>${post.content.substring(0, 400)}</p>
