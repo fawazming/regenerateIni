@@ -1,6 +1,6 @@
 // http://localhost/galleria/yydeQhFDd5kb9jZY8 https://galleria.sgm.ng/TaBErbxSpwqhpnaK7
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://galleria.sgm.ng/yydeQhFDd5kb9jZY8').then(res => res.json()).then(dt => {
+    fetch('https://galleria.sgm.ng/wyf3VawuaXYAw68t5').then(res => res.json()).then(dt => {
     let preloader = document.querySelector('.page-loader');
     let gallery = document.querySelector('#gallery');
     console.log(dt)
